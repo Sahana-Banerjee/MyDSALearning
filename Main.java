@@ -19,7 +19,7 @@ public String toString() {
 	return "Main []";
 }
 
-// find whether there are matching element in two arrays. return true or false 
+//find whether there are matching element in two arrays. return true or false 
 public static boolean compareArray(final char[] array1, final char[] array2 ){
   for(final char arr1Char: array1){
       for(final char arr2Char: array2){
