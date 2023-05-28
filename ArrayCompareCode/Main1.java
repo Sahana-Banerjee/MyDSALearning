@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-class Main {
+class Main1 {
   public static void main(final String[] args) {
     final char[] array1 = { 'x', 'y', 'z', 'k', 'u' };
     final char[] array2 = { 'a', 'b', 'd', 'c' };
