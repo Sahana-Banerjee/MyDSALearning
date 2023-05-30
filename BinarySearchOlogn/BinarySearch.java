@@ -1,7 +1,7 @@
 class BinarySearch {
   // This solution will have the Average and worst case complexity of O(logn)
   public static int search(int nums[], int target) {
-    int sidx = 0, lidx = nums.length;
+    int sidx = 0, lidx = nums.length-1;
 
     while (lidx >= sidx) {
       int pidx = (sidx + lidx) / 2;
@@ -21,8 +21,8 @@ class BinarySearch {
   }
 
   public static void main(final String[] args) {
-    int nums[] = { 1, 4, 6, 8, 9 };
-    int target = 3;
+    int nums[] = {-1,0,3,5,9,12};
+    int target = 13;
     System.out.println("Found at = " + search(nums, target));
   }
 }
