@@ -3,3 +3,4 @@
 *.settings
 *.nix
 *.class
+*.log
